@@ -5,7 +5,7 @@ Maze making using the backtracking algorithm
 
 
 ## The Algorithm
-The algorith uses it's own stack (not the system stack) to keep track of the locations along the path it creates.  This allows it to backtrack when a dead end is reached, by popping the previous location from the stack.  The map is complete when the algorithm has backtracked all the way back to the origin and the stack is empty.  Interestingly, the same algorithm can be used to solve the maze.
+The algorithm uses it's own stack (not the system stack) to keep track of the locations along the path it creates.  This allows it to backtrack when a dead end is reached, by popping the previous location from the stack.  The map is complete when the algorithm has backtracked all the way back to the origin and the stack is empty.  Interestingly, the same algorithm can be used to solve the maze.
 
 The maze is created using the following algorithm:
 
@@ -31,4 +31,4 @@ At any time, the user can hit the Q key to exit the program.
 
 
 ## Potential Improvements
-When the destination cell is reached, the algorith could check the size of the stack.  If the stack size is small, it indicates that the path from Origin to Destination is not very long.  This could cause the program to declare the maze too easy and start again.
+When the destination cell is reached, the algorithm could check the size of the stack.  If the stack size is small, it indicates that the path from Origin to Destination is not very long.  This could cause the program to declare the maze too easy and start again.
