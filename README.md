@@ -1,6 +1,8 @@
 # MazeMaking_X16
 Maze making using the backtracking algorithm
+
 ![MazeMaking_X16](/maze.gif)
+
 
 ## The Algorithm
 The algorith uses it's own stack (not the system stack) to keep track of the locations along the path it creates.  This allows it to backtrack when a dead end is reached, by popping the previous location from the stack.  The map is complete when the algorithm has backtracked all the way back to the origin and the stack is empty.  Interestingly, the same algorithm can be used to solve the maze.
