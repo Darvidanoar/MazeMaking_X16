@@ -15,7 +15,7 @@ The maze is created using the following algorithm:
 4. Check the new location's neighboring cells to determine whether a move is possible.
 5. If a move is possible, goto 1.
 6. If a move is not possible, backtrack to the previous location by popping it's co-ordinates off the stack.
-7. If the stack is not empty, Goto 1.
+7. If the stack is not empty, goto 1.
 8. The maze is complete
 
 
