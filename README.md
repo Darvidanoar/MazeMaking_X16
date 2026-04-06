@@ -2,6 +2,7 @@
 Maze making using the backtracking algorithm
 
 ![MazeMaking_X16](/maze.gif)
+![MazeMaking_X16](/maze320.png)
 
 ## The Code
 There are two code samples in this repo:
