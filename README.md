@@ -7,7 +7,7 @@ Maze making using the backtracking algorithm
 ## The Code
 There are two code samples in this repo:
 1. **MAZE.ASM** - A maze created in TEXT mode resulting in an 80x60 maze.
-2. **MAZE360.ASM** - A maze created in 320x240 graphics mode.  On completion of the maze, the algirithm is used to solve the maze.
+2. **MAZE320.ASM** - A maze created in 320x240 graphics mode.  On completion of the maze, the algirithm is used to solve the maze.
 
 
 ## The Algorithm
