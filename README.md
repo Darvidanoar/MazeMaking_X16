@@ -3,6 +3,11 @@ Maze making using the backtracking algorithm
 
 ![MazeMaking_X16](/maze.gif)
 
+## The Code
+There are two code samples in this repo:
+1. **MAZE.ASM** - A maze created in TEXT mode resulting in an 80x60 maze.
+2. **MAZE360.ASM** - A maze created in 320x240 graphics mode.  On completion of the maze, the algirithm is used to solve the maze.
+
 
 ## The Algorithm
 The algorithm uses it's own stack (not the system stack) to keep track of the locations along the path it creates.  This allows it to backtrack when a dead end is reached, by popping the previous location from the stack.  The map is complete when the algorithm has backtracked all the way back to the origin and the stack is empty.  Interestingly, the same algorithm can be used to solve the maze.
